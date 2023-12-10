@@ -1,4 +1,4 @@
-.PHONY: clean build build-firefox build-chrome
+.PHONY: clean build
 
 clean:
 	@bash -c "set -e; if [ -d .git ]                                                ; \
