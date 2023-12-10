@@ -25,5 +25,6 @@ module.exports = {
     'prettier/prettier': 2,
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
+    'no-unused-vars': ["warn"],
   },
 };

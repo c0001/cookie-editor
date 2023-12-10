@@ -10,11 +10,5 @@ clean:
 		fi"
 
 build: clean
-	mkdir build
-	cp -a icons interface cookie-editor.js build/
-
-build-firefox: build
-	cp manifest.firefox.json build/manifest.json
-
-build-chrome: build
-	cp manifest.chrome.json build/manifest.json
+	npm install
+	./node_modules/.bin/grunt
