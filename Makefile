@@ -11,7 +11,7 @@ clean:
 
 build: clean
 	mkdir build
-	cp -a icons interface build/
+	cp -a icons interface cookie-editor.js build/
 
 build-firefox: build
 	cp manifest.firefox.json build/manifest.json
