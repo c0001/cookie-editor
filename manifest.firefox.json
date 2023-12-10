@@ -78,8 +78,10 @@
 		}
 	},
 	"commands": {
-		"_execute_browser_action": {
-			"description": "Popup extension"
+		"_execute_action": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+2"
+			}
 		}
 	}
 }
