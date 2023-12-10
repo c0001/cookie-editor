@@ -82,6 +82,11 @@
 			"suggested_key": {
 				"default": "Ctrl+Shift+2"
 			}
+		},
+		"_execute_sidebar_action": {
+			"suggested_key": {
+				"default": "F11"
+			}
 		}
 	}
 }
