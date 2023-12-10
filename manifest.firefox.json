@@ -69,12 +69,17 @@
 	},
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "{c3c10168-4186-445c-9c5b-63f12b8e2c87}",
+			"id": "{65688920-005d-46c8-a7dc-29196eaa910b}",
 			"strict_min_version": "112.0"
 		},
 		"gecko_android": {
-			"id": "cookie-editor@cookie-editor.com",
+			"id": "{65688920-005d-46c8-a7dc-29196eaa910c}",
 			"strict_min_version": "112.0"
+		}
+	},
+	"commands": {
+		"_execute_browser_action": {
+			"description": "Popup extension"
 		}
 	}
 }
