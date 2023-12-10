@@ -1043,7 +1043,7 @@ import { CookieHandlerPopup } from './cookieHandlerPopup.js';
   async function initWindow(_tab) {
     await optionHandler.loadOptions();
     themeHandler.updateTheme();
-    handleAd();
+    // handleAd();
     optionHandler.on('optionsChanged', onOptionsChanged);
     cookieHandler.on('cookiesChanged', onCookiesChanged);
     cookieHandler.on('ready', showCookiesForTab);
